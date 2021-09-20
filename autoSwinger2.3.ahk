@@ -13,10 +13,10 @@ coordmode, tooltip, screen
 #InstallMouseHook
 SetKeyDelay, 0, 0
 ;;;;; SET THE WINDOW ID/NAMES ;;;;;
-WinGet, id, List, TKReborn
+WinGet, id, List, BlankTk
 loop, %boxes% {
-	WinSetTitle, % "ahk_id " id%A_Index%, , TKReborn%A_Index%
-	TKReborn%a_index% := new _ClassMemory("TKReborn"a_index, "", hProcessCopy)
+	WinSetTitle, % "ahk_id " id%A_Index%, , freedomPoet%A_Index%
+	freedomPoet%a_index% := new _ClassMemory("TKReborn"a_index, "", hProcessCopy)
 }
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

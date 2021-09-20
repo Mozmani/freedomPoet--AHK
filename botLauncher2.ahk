@@ -10,6 +10,5 @@ ListLines Off
 ;;;;; open the bots ;;;;;
 run autoFollow3.3.ahk
 run autoSwinger2.3.ahk
-run buffBot1.2.ahk
-run freedomPoet4.4.ahk
+run freedomPoet6.0.ahk
 ExitApp
