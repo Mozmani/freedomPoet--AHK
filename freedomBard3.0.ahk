@@ -1,7 +1,7 @@
 
 ;;;;; NEEDED TO RUN ;;;;;
 #Include <classMemory>
-#include botLauncherConfigBARD.ini
+#include botLauncherConfig.ini
 ;;;;; OPTOMIZE SORCERY ;;;;;
 #singleinstance force
 #NoEnv

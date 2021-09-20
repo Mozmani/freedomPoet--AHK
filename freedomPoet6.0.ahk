@@ -218,7 +218,7 @@ $^f12::
 					;asv
 
 					loop % groupSize {
-						if ((a_tickcount-asvTimer%a_index%)>asvAther) and (spellCount%poetTemp% = 0) and (curMana>(asvCost+30)) { 
+						if ((a_tickcount-asvTimer%a_index%)>asvAtherReg) and (spellCount%poetTemp% = 0) and (curMana>(asvCost+30)) { 
 							targetUID := freedomPoet%poetTemp%.read(groupBaseAddress, "UInt", (groupUID + ((groupOffsetMult * a_index) - groupOffsetMult)))
 							freedomPoet%poetTemp%.write(spellCastUID, targetUID, "Int")
 							Controlsend,, {Blind}%aKey%{enter}%sKey%{enter}%vKey%{enter}, freedomPoet%poetTemp%
